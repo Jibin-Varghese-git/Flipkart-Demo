@@ -1,0 +1,30 @@
+body
+{
+	margin:0px;
+	top:0px;
+}
+
+/*------Home----*/
+
+/*---Header---*/
+
+
+.header_container
+{
+	padding: 11px 26px;
+}
+
+.header_search input
+{
+	border:none;
+}
+
+.header_search input:focus
+{
+	outline:none;
+}
+
+.header_seller span
+{
+	white-space:nowrap;
+}
