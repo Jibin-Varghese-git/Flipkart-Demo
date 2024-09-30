@@ -1,0 +1,55 @@
+/*---Header---*/
+
+header
+{
+	position:sticky;
+	top:0;
+}
+
+
+.header_container
+{
+	padding: 11px 26px;
+}
+
+.header_search 
+{
+	width:50vw;
+}
+
+.header_search input
+{
+	border:none;
+}
+
+.header_search input:focus
+{
+	outline:none;
+}
+
+.header_seller span
+{
+	white-space:nowrap;
+}
+
+.header_login:hover
+{
+	background-color:blue;
+	
+}
+
+.header_login:hover span
+{
+	color:white;
+	
+}
+
+.header_dots
+{
+	border:1px solid transparent;
+} 
+
+.header_dots:hover
+{
+	border:1px solid #dfdbdb;
+}
