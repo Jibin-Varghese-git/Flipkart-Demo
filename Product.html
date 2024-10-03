@@ -35,7 +35,7 @@
 		<!--MAIN-->
 		
 		<main>
-			<div class="main_top w-100 bg-white border d-flex justify-content-evenly py-2 ">
+			<div class="main_top w-100 bg-white border d-none d-lg-flex justify-content-evenly py-2 ">
 				<div class="fw-bold text-nowrap">Electronics <img class="mx-1 " src=" Assets/Images/down_arrow.png" alt="No image found" width="8" height="8"></div>
 				<div class="fw-bold text-nowrap">TVs & Aplliances <img class="mx-1 " src=" Assets/Images/down_arrow.png" alt="No image found" width="8" height="8"></div>
 				<div class="fw-bold text-nowrap">Men <img class="mx-1 " src=" Assets/Images/down_arrow.png" alt="No image found" width="8" height="8"></div>
@@ -50,11 +50,11 @@
 			<!--MAIN TOP ENDS-->
 			
 			<!--PRODUCT PAGE--> 
-			<div class="product_container_top d-flex bg-white border border-danger">
+			<div class="product_container_top col-12 d-flex flex-column flex-lg-row  bg-white ">
 			
-				<div class="product_conatiner_top_left bg-white">
-					<div class="d-flex"> 
-						<div class="side_image_container border my-2 ms-3 overflow-hidden">
+				<div class="product_conatiner_top_left col-12 col-lg-5 position-sticky bg-white">
+					<div class="d-flex  w-100"> 
+						<div class="side_image_container border  d-none d-xl-block my-2 ms-3 overflow-hidden">
 							<div class="side_images p-2 "><img src="Assets/Images/product_realme.webp"></div>
 							<div class="side_images p-2 border-top"><img src="Assets/Images/product_realme.webp" alt="no image found"></div>
 							<div class="side_images p-2 border-top"><img src="Assets/Images/product_realme.webp" alt="no image found"></div>
@@ -66,17 +66,17 @@
 							<div class="side_images p-2 border-top"><img src="Assets/Images/product_realme.webp" alt="no image found"></div>
 							<div class="side_images p-2 border-top"><img src="Assets/Images/product_realme.webp" alt="no image found"></div>
 						</div>
-						<div class="border p-2 my-2 me-2">
+						<div class="img_box p-2 border me-1 w-100 my-2">
 						<img src="Assets/Images/product_realme.webp">
 						</div>
 					</div>
-					<div class="conatiner_top_left_btn justify-content-center me-2 d-flex border">
+					<div class="conatiner_top_left_btn justify-content-center me-2  d-none d-lg-flex border">
 						<button class=" fw-bold text-white  w-50 me-1"> <img class="me-2" src=" Assets/Images/cart_white.png" alt="No image found">Go to Cart</button> 
 						<button  class=" fw-bold text-white w-50 ms-1 "><img class="me-2" src=" Assets/Images/thunder.png" width="15" height="15"  alt="No image found">Buy Now</button>
 					</div>
 				</div>	
 			
-				<div class="product_conatiner_top_right bg-white ms-2 border border-warning">
+				<div class="product_conatiner_top_right  col-12 col-lg-7 bg-white ms-2">
 					
 					<div class="phone_details  mt-2">
 						<span class="mob_name">realme P1 5G (Phoenix Red, 128 GB)  (8 GB RAM)</span>
@@ -95,14 +95,233 @@
 
 					<div class="exchange_box  mt-4">
 						<div class="box_1 border d-flex justify-content-between "> <div><input type="radio" class="me-2" checked> <span class="">Buy without Exchange</span></div> <span class="fw-bold">₹14,999</span></div>
-						<div class="box_2 border  "> <div class="d-flex justify-content-between"><div><input type="radio" class="me-2" > <span class="">Buy with Exchange</span></div> <span class="fw-bold">upto ₹8600 off</span></div> <span class="text-danger ms-4">Enter pincode to check if exchange is available</span></div>
+						<div class="box_2 border"> <div class="d-flex justify-content-between"><div><input type="radio" class="me-2" > <span class="">Buy with Exchange</span></div> <span class="fw-bold">upto ₹8600 off</span></div> <span class="text-danger ms-4">Enter pincode to check if exchange is available</span></div>
 					</div>	
 			
-					<div class="mfg_box border mt-4 d-flex">
-						<div class="mfg_box1 border px-2 py-1"><img class="me-2" src=" Assets/Images/realme_logo.webp" alt="No image found"></div> <span>1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories</span>
+					<div class="mfg_box  mt-4 d-flex p-3">
+						<div class="mfg_box1 border px-2 py-1 me-4s"><img class="me-2" src=" Assets/Images/realme_logo.webp" alt="No image found"></div> <span class="ms-5">1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for Inbox Accessories <a href="" class="text-decoration-none fw-bold">Know More</a></span>
 					</div>	
+					
+					<div class="color_ram_box  ">
+						<div class="d-flex">
+							<div class="col-6  d-flex p-2">
+								<span class="color_head mt-1 me-5 fw-bold">Color</span>
+								<div class="clr_imgs px-2 border ms-4 mt-1 me-2"><img src="Assets/Images/p1_blue.webp" alt="no image found"></div>
+								<div class="clr_imgs px-2 border mt-1 me-2"><img src="Assets/Images/p1_green.jpeg" alt="no image found"></div>
+								<div class="clr_imgs px-2 border mt-1"><img src="Assets/Images/p1_red.webp" alt="no image found"></div>
+							</div>
 
-				</div>				
+							<div class="col-6  d-flex p-2">
+								<span class="color_head mt-1 me-5 fw-bold">Storage</span>
+								<div class="storage_value_1 px-2 pt-1 border-primary text-primary  ms-4 mt-1 me-2 fw-bold">128 GB</div>
+								<div class="storage_value_2 px-2 pt-1 mt-1 me-2 fw-bold">256 GB</div>
+							</div>
+						</div>
+						<div class="col-6-12  d-flex p-2">
+							<span class="color_head mt-1 me-5 fw-bold">Storage</span>
+							<div class="storage_value_1 px-2 pt-1 border-primary text-primary  ms-4 mt-1 me-2 fw-bold">6 GB</div>
+							<div class="ram_value_2 px-2 pt-1 mt-1 me-2 fw-bold">8 GB</div>
+						</div>
+					</div>
+
+					<div class="delivery_box ">
+						<div class="top_box col-12 d-flex  p-2">
+							<div class="color_head fw-bold mt-1 me-5">Delivery</div>
+							<div class="del_input ms-3 pb-1">
+								<img src="Assets/Images/location.png" alt="no image found" width="15" height="15">
+								<input type="text" placeholder=" Enter delivery pincode" class="fw-bold">
+								<a href="" class="text-decoration-none fw-bold">Check</a>
+							</div>
+  						</div>
+						<div class="bottom_box ms-5 ps-5">
+							<div class="del_date "><span class="txt_1 fw-bold ms-4">Delivery by 6 Oct Sunday</span><span class="txt_2 fw-bold">|</span> <span class="txt_3 fw-bold">Free</span> <span class="txt_4 fw-bold">₹40</span></div>
+							<small class="ms-4">if ordered before 1:37pm</small><br>
+							<a href="" class="text-decoration-none ms-4 fw-bold">View Details</a>
+						</div>
+					</div>
+
+					<div class="hl_py_box d-flex ">
+						<div class="col-6  d-flex lh-lg">
+							<div class="color_head fw-bold  me-5">Hightlights</div>
+							<ul class=" mt-1" >
+								<li class="lh-sm">8 GB RAM | 128 GB ROM | Expandable Upto 2 TB</li>
+								<li>16.94 cm (6.67 inch) Full HD+ Display</li>
+								<li>50MP + 2MP | 16MP Front Camera</li>
+								<li>5000 mAh Battery</li>
+								<li>Dimensity 7050 Processor</li>
+							</ul>
+						</div>
+						<div class="col-6 d-flex lh-lg">
+							<div class="color_head fw-bold  ">Easy Payment Options</div>
+							<ul class="mt-1 " >
+								<li class="">No cost EMI starting from ₹5,000/month</li>
+								<li>Cash on Delivery</li>
+								<li>Net banking & Credit/ Debit/ ATM card</li>
+								<div class="fw-bold text-primary">View All</div>
+							</ul>
+						</div>
+						
+					</div>
+					<div class="seller_box col-6  d-flex lh-lg">
+						<div class="color_head fw-bold me-5">Seller</div>
+						<ul class="mt-1 ms-4" >
+							 <div class="d-flex"><span  class="fw-bold text-primary">PETILANTE Online</span> <div class="star_blue_4">4 <img src="Assets/Images/star_white.svg" alt="No image found"> </div> </div>
+							<li>7 Days Service Center Replacement/Repair</li>
+							<li>GST invoice available</li>
+							<div class="fw-bold text-primary">See other sellers</div>
+							</ul>
+					</div>
+					<div class="supercoin_box">
+						<img src="Assets/Images/super_coin.webp" alt="No image found" width="380" height="90">
+					</div>
+					<div class="my-4">
+						<span class="color_head fw-bold fs-6">Description</span><span class="ms-5 fs-7">NA</span>
+					</div>
+	
+					<div class="specification_box border">
+						<div class="sp_heading border-bottom px-4 py-3"><h3>Specifications</h3></div>
+						<div class="sp_table">
+							<div class="p-3"><h5>General</h5></div>
+							<table class="lh-lg">
+								<tbody>
+
+									<tr class="lh-sm">
+										<td class="sp_table_col_1 col-3 px-3">In The Box</td>
+										<td class="sp_table_col_2 col-9 pe-5">Handset, Adapter, USB Cable, Important Info Booklet with Warranty Card, Quick Guide, Sim Card Tool, Screen Protect Film, TPU Case</td>
+									</tr>
+									
+									<tr class=" ">
+										<td class="sp_table_col_1 col-3 px-3">Model Number</td>
+										<td class="sp_table_col_2 col-9 pe-5">RMX3870</td>
+									</tr>
+
+									<tr class="">
+										<td class="sp_table_col_1 col-3 px-3">Color</td>
+										<td class="sp_table_col_2 col-9 pe-5">Phoenix Red</td>
+									</tr>
+
+									<tr class="">
+										<td class="sp_table_col_1 col-3 px-3">Browse Type</td>
+										<td class="sp_table_col_2 col-9 pe-5">Smart phones</td>
+									</tr>
+
+									<tr class="">
+										<td class="sp_table_col_1 col-3 px-3">Sim Type</td>
+										<td class="sp_table_col_2 col-9 pe-5">Dual Sim</td>
+									</tr>
+
+
+									<tr class="">
+										<td class="sp_table_col_1 col-3 px-3">Hybrid Sim Slot</td>
+										<td class="sp_table_col_2 col-9 pe-5">Yes</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div><!--sp_table-->
+						<div class="text-primary p-4 border-top">Read More</div>
+					</div><!--Speci-Box-->
+
+					<div class="review_box border mt-4">
+						<div class="d-flex justify-content-between p-4"><h4>Ratings & Reviews</h4> <button class="rate_pdt_btn">Rate Product</button></div>
+
+						<div class="tot_rate_box d-flex p-3 ms-3  ">
+							<div class="rating_head"><h3>4.4 ★</h3> <span>20,310 Ratings &</span><br><span>1,193 Reviews</span> </div>
+							<div class="rating_bar  d-flex border-right pe-2">
+								<div class="ms-2 ">
+									<span>5 ★</span><br>
+									<span>4 ★</span><br>
+									<span>3 ★</span><br>
+									<span>2 ★</span><br>
+									<span>1 ★</span><br>
+								</div>
+								
+								<div class=" d-flex flex-column justify-content-evenly ms-1 ">	
+									<div class=" pro_bar_base  rounded  ">
+ 										<div class="pro_bar_1 bg-success rounded "> </div>
+									</div>
+
+									<div class=" pro_bar_base  rounded ">
+ 										<div class="pro_bar_2 bg-success rounded "> </div>
+									</div>
+
+									<div class=" pro_bar_base  rounded  ">
+ 										<div class="pro_bar_3 bg-success rounded "> </div>
+									</div>
+
+									<div class=" pro_bar_base rounded  my-1">
+ 										<div class="pro_bar_4  bg-warning rounded "> </div>
+									</div>
+
+									<div class=" pro_bar_base  rounded ">
+ 										<div class="pro_bar_5 bg-danger rounded "> </div>
+									</div>
+								</div>
+								<div class="ms-2 ">
+									<span>12,083</span><br>
+									<span>4,584</span><br>
+									<span>1,242</span><br>
+									<span>434</span><br>
+									<span>1,152</span><br>
+								</div>
+							</div>
+
+							<div class="progress_round ">
+								<div class="col-12 d-flex border-left ">
+									<div class="col-3  ps-2"><img src="Assets/Images/camera_rating.jpg" alt="No image found"></div>
+									<div class="col-3  ps-2"><img src="Assets/Images/battery_rating.jpg" alt="No image found"></div>
+									<div class="col-3  ps-2"><img src="Assets/Images/display_rating.jpg" alt="No image found"></div>
+									<div class="col-3  ps-2"><img src="Assets/Images/design_rating.jpg" alt="No image found"></div>
+								</div>
+							</div>
+				
+						</div>
+						<div class="sample_img col-12 px-2  d-flex my-2 me-5">
+							<div class="col-2  px-3"><img src="Assets/Images/cam_sample.jpg" alt="No image found pb-1"></div>
+							<div class="col-2  px-3"><img src="Assets/Images/cam_sample_1.webp" alt="No image found pb-1"></div>
+							<div class="col-2  px-3"><img src="Assets/Images/cam_sample_2.webp" alt="No image found pb-1"></div>
+							<div class="col-2  px-3"><img src="Assets/Images/cam_sample_3.jpg" alt="No image found pb-1"></div>
+							<div class="col-2  px-3"><img src="Assets/Images/cam_sample_1.webp" alt="No image found pb-1"></div>
+							<div class="col-2  px-3"><img src="Assets/Images/cam_sample_3.jpg" alt="No image found pb-1"></div>
+						</div>
+
+						<div class="single_rating border-top border-bottom p-4"><!--SINGLE RATING-->
+							<div class="head d-flex"><div class="green_rating  me-2">5<img src="Assets/Images/star_white.svg" alt="No image found pb-1"></div> <span class="fw-bold ms-3">Wonderful</span></div>
+							<div class="mt-2 fs-6">Good Camera</div>
+							<div class="col-12">
+								<div class="col-8 mt-2 d-flex">
+									<div class=" review_images col-2  px-2"><img src="Assets/Images/cam_sample_1.webp" alt="No image found"></div>
+									<div class=" review_images col-2  px-2"><img src="Assets/Images/cam_sample_2.webp" alt="No image found"></div>
+									<div class=" review_images col-2  px-2"><img src="Assets/Images/cam_sample_3.jpg" alt="No image found"></div>
+									<div class=" review_images col-2  px-2"><img src="Assets/Images/cam_sample_2.webp" alt="No image found"></div>
+								</div>
+							</div>
+							<div class="user_cert mt-2 d-flex justify-content-between">
+								<div><span class="fw-bold">Flipkart Customer </span><img src="Assets/Images/certified.png" alt="No image found" width="20" height="20"><span> Certified Buyer, Birbhum District  3 months ago</span></div>
+								<div><img src="Assets/Images/like.png" alt="No image found" width="20" height="20"><span class="fw-bold">196 </span><img class="" src="Assets/Images/dislike.png" alt="No image found" width="20" height="20"><span class="fw-bold">41 </span></div>
+							</div>
+						</div><!--SINGLE RATING-->
+
+						<div class="single_rating  border-bottom p-4"><!--SINGLE RATING-->
+							<div class="head d-flex"><div class="green_rating  me-2">5<img src="Assets/Images/star_white.svg" alt="No image found pb-1"></div> <span class="fw-bold ms-3">Wonderful</span></div>
+							<div class="mt-2 fs-6">Good Camera</div>
+							<div class="col-12">
+								<div class="col-8 mt-2 d-flex">
+									<div class=" review_images col-2  px-2"><img src="Assets/Images/cam_sample_1.webp" alt="No image found"></div>
+									<div class=" review_images col-2  px-2"><img src="Assets/Images/cam_sample_2.webp" alt="No image found"></div>
+									<div class=" review_images col-2  px-2"><img src="Assets/Images/cam_sample_3.jpg" alt="No image found"></div>
+									<div class=" review_images col-2  px-2"><img src="Assets/Images/cam_sample_2.webp" alt="No image found"></div>
+								</div>
+							</div>
+							<div class="user_cert mt-2 d-flex justify-content-between">
+								<div><span class="fw-bold">Flipkart Customer </span><img src="Assets/Images/certified.png" alt="No image found" width="20" height="20"><span> Certified Buyer, Birbhum District  3 months ago</span></div>
+								<div><img src="Assets/Images/like.png" alt="No image found" width="20" height="20"><span class="fw-bold">196 </span><img class="" src="Assets/Images/dislike.png" alt="No image found" width="20" height="20"><span class="fw-bold">41 </span></div>
+							</div>
+						</div><!--SINGLE RATING-->
+						
+					</div><!--RATINGS & REVIEWS-->
+
+				</div><!--CONTAINER-RIGHT-->				
 
 			</div><!--PRODUCT-CONTAIER-->
 
