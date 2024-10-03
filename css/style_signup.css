@@ -95,16 +95,17 @@ header
 .login_box_left
 {
 	padding:40px 33px;
-	width:22vw;
+	width:24vw;
 	height:82vh;
-}
-
-.login_box_left 
-{
 	display:flex;
 	flex-direction: column;
   	justify-content: space-between;
 
+}
+
+.login_box_left span
+{
+	font-size:18px
 }
 
 .login_box_right
@@ -141,11 +142,12 @@ header
 	
 }
 
-.login_right_content_btm 
+.login_right_content_top button
 {
-	font-size:14px;
-	text-align:center;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+
 
 
 
