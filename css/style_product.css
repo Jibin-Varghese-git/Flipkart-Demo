@@ -442,13 +442,99 @@ header
 	opacity:0.6;
 }
 
+.product_container_bottom
+{
+	background-color: #f1f3f6;
+}
+
+.card_type_1
+{	
+	min-width:28vw;
+	height:24vh;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card_img img
+{	
+	width:100%;
+	height:100%;
+}
+
+
+
+.card_btn
+{
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto 0;
+	height:60%;
+	width:50px;
+	border:none;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+	
+.card_btn img
+{
+	transform:rotate(270deg)
+}
+
+.card-body p
+{
+	font-size:14px;
+}
+
+.card_type_2
+{
+	min-width:15vw;
+}
+
+.mob_price .text_2
+{
+	text-decoration: line-through;
+    	font-size: 14px;
+    	color: #878787;
+}
+
+.mob_price .text_3
+{
+	color: #388e3c;
+    	font-size: 13px;
+    	letter-spacing: -.2px;
+    	font-weight: 500;
+}
+
+.price_mob
+{
+	color: #878787;
+	font-size:14px;
+}
+
+
+.card_btn_2
+{
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto 0;
+	height:20%;
+	width:50px;
+	border:none;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card_btn_2 img
+{
+	transform:rotate(270deg)
+}
+
 /*----Footer----*/
 
 footer 
 {
 	height:53vh;
 	line-height: 18px;
-
+	opacity:0.9;
 }
 
 footer a
