@@ -99,16 +99,6 @@ header
 	width:100%;
 }
 
-.side_images
-{
-	margin-top:2px;
-}
-
-.side_images:hover
-{
-	border:1px solid #0909f6!important;
-}
-
 .side_image_container
 {
 	height:70vh;
@@ -702,14 +692,14 @@ p
 
 .product-card {
     position: relative;
-    width: 90vw;
+    width: 50%;
     height: 70vh;
     
 }
 
 .product-card img
  {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -745,18 +735,6 @@ p
 	height:320px;
 	width:140px;
 }
-
-.font-size-12
-{
-	font-size: 14px;
-}
-
-.pro-img-details img
-{
-	width:100%;
-	height:100%;
-}
-
 
 
 

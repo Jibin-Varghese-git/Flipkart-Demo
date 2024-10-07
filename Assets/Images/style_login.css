@@ -1,0 +1,211 @@
+main
+{
+	background:#f1f3f6;
+}
+
+body
+{
+	background:#f1f3f6 !important;
+}
+
+/*---Header---*/
+
+header
+{
+	position:sticky;
+	top:0;
+}
+
+
+.header_container
+{
+	padding: 10px 26px 10px 30px;
+}
+
+.header_search 
+{
+	width:30vw;
+	height:35px;
+}
+
+.header_search input
+{
+	border:none;
+	width:95%;
+}
+
+.header_search input:focus
+{
+	outline:none;
+}
+
+.header_seller span
+{
+	white-space:nowrap;
+}
+
+.header_login
+{
+	height:35px;
+	
+}
+
+.header_login:hover
+{
+	background-color:blue;
+	
+}
+
+.header_login:hover span
+{
+	color:white;
+	
+}
+
+.header_dots
+{
+	border:1px solid transparent;
+} 
+
+.header_dots:hover
+{
+	border:1px solid #dfdbdb;
+}
+
+/*----Main---*/
+
+
+.main_top div
+{
+	font-size:14px	
+}
+
+.login_box
+{
+	background:#f1f3f6;
+}
+
+
+
+.login_box_right
+{
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
+}
+
+.login_box_left
+{
+	padding:40px 33px;
+	width:22vw;
+	height:82vh;
+}
+
+.login_box_left 
+{
+	display:flex;
+	flex-direction: column;
+  	justify-content: space-between;
+
+}
+
+.login_box_right
+{
+	padding: 56px 35px 16px;
+	width:36vw;
+	display:flex;
+	flex-direction: column;
+  	justify-content: space-between;
+}
+
+.login_box_right input
+{
+	border:none;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+.login_box_right input:focus
+{
+	outline:none;
+}
+
+.login_right_content_top div
+{
+	 color: #878787;
+	font-size:12px;
+}
+
+.login_right_content_top button
+{
+	background:#fb641b;
+	height:48px;
+	border:none
+	
+}
+
+.login_right_content_btm 
+{
+	font-size:14px;
+	text-align:center;
+}
+
+
+
+/*----Footer----*/
+
+footer 
+{
+	height:53vh;
+	line-height: 18px;
+bottom:0;	
+}
+
+footer a
+{
+	font-size:12px;
+}
+
+footer span
+{
+	text-color:#878787;
+	font-size:12px;
+}
+
+
+footer p
+{
+	font-size:12px;
+	line-height:18px;
+}
+
+.second_3_1
+{
+	width:15vw;	
+}
+
+.second_3_2
+{
+	line-height:18px;
+	border-left:1px solid grey;	
+}
+
+.product_details a
+{
+	text-decoration:none;
+	color:	#808080;
+}
+
+p
+{
+	font-size:12px;
+}
+
+.product_details 
+{
+	background-color:#F0F0F0;
+}
+
+.footer_container_2
+{
+	border-top:1px solid grey;
+}
+
+
