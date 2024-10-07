@@ -1,0 +1,218 @@
+main
+{
+	background:#f1f3f6;
+}
+
+body
+{
+	background:#f1f3f6 !important;
+	font-size:14px;
+}
+
+/*---Header---*/
+
+header
+{
+	position:sticky;
+	top:0;
+	z-index:1000;
+}
+
+
+.header_container
+{
+	padding: 10px 26px 10px 30px;
+}
+
+.header_search 
+{
+	width:30vw;
+	height:35px;
+}
+
+.header_search input
+{
+	border:none;
+	width:95%;
+}
+
+.header_search input:focus
+{
+	outline:none;
+}
+
+.header_seller span
+{
+	white-space:nowrap;
+}
+
+.header_login
+{
+	height:35px;
+	
+}
+
+.header_login:hover
+{
+	background-color:blue;
+	
+}
+
+.header_login:hover span
+{
+	color:white;
+	
+}
+
+.header_dots
+{
+	border:1px solid transparent;
+} 
+
+.header_dots:hover
+{
+	border:1px solid #dfdbdb;
+}
+
+/*----Main---*/
+
+
+.l_c_div_2_txt1
+{
+	font-size:12px;
+	font-weight:500;
+}
+
+.l_c_div_2_txt2
+{
+	opacity:0.8;
+}
+
+.l_c_div_2_txt2 img
+{
+	transform:rotate(90deg);
+}
+
+.mob_img 
+{
+	height:35vh;
+	width:30vh;
+}
+
+.mob_img img
+{
+	height:100%;
+	width:100%;
+}
+
+.green_btn
+{
+	width:35px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.rating_nos
+{
+	opacity:0.6;
+}
+
+.pre_price .text_1
+{
+	text-decoration: line-through;
+    	font-size: 14px;
+    	color: #878787;
+}
+
+.pre_price .text_2
+{
+	color: #388e3c;
+    	font-size: 13px;
+    	letter-spacing: -.2px;
+    	font-weight: 500;
+}
+
+.text_3
+{
+	font-size:12px;
+}
+
+.text_4
+{
+	padding:4px;
+	border-radius: 2px;
+    	background-color: rgb(233, 222, 255);
+	display: inline-block;
+}
+
+.text_4 div
+{
+	color: rgb(112, 72, 198);
+    	font-size: 12px;
+    	font-style: normal;
+    	font-weight: 500;
+}
+
+
+/*----Footer----*/
+
+footer 
+{
+	height:53vh;
+	line-height: 18px;
+	opacity:0.9;
+	bottom:0;
+}
+
+footer a
+{
+	font-size:12px;
+}
+
+footer span
+{
+	text-color:#878787;
+	font-size:12px;
+}
+
+
+footer p
+{
+	font-size:12px;
+	line-height:18px;
+}
+
+.second_3_1
+{
+	width:15vw;	
+}
+
+.second_3_2
+{
+	line-height:18px;
+	border-left:1px solid grey;	
+}
+
+.product_details a
+{
+	text-decoration:none;
+	color:	#808080;
+}
+
+p
+{
+	font-size:12px;
+}
+
+.product_details 
+{
+	background-color:#F0F0F0;
+}
+
+.footer_container_2
+{
+	border-top:1px solid grey;
+}
+
+
